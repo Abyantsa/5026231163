@@ -1,0 +1,31 @@
+body {
+    background-color: D1F8EF;
+    margin-left: 200;
+    margin-right: 200;
+    font-family: 'Inter';
+}
+
+p {
+    color: 578FCA;
+}
+
+a:link {
+    text-decoration: none;
+    color: 3674B5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: 3674B5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: 578FCA;
+    font-weight: bold;
+}
+
+.formatheader {
+    font-size: larger;
+}
+
