@@ -22,3 +22,35 @@ Route::get('hello', [Link::class,'helloworld']);
 Route::get('pertama', function () {
 	return view('pertama');
 });
+
+Route::get('js1', function () {
+	return view('js1');
+});
+
+Route::get('js2', function () {
+    return view('js2');
+});
+
+Route::get('frontend', function () {
+	return view('frontend');
+});
+
+Route::get('bootstrap1', function () {
+    return view('bootstrap1');
+});
+
+Route::get('danantara', function () {
+    return view('danantara');
+});
+
+Route::get('helperlog', function () {
+    return view('helperlog');
+});
+
+Route::get('linktree', function () {
+    return view('linktree');
+});
+
+Route::get('uts', function () {
+    return view('uts');
+});

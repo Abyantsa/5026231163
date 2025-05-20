@@ -12,3 +12,4 @@ class Link extends Controller
         return view('blog');
     }
 }
+

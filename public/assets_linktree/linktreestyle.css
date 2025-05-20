@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3b3b3b, #787878);
+    font-family: 'karla', sans-serif;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+  
+  .main-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 20px;
+    color: white;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 15px;
+  }
+  
+  .username {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 700;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
+
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.15);
+  }
+  
+  .section-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #eee;
+    margin: 30px 0 15px;
+    text-align: center;
+  }
+  
+  .link-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #00a5ff;
+    padding: 8px 8px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid transparent; 
+    text-decoration: none;
+  }
+  
+  .link-btn:hover {
+    background-color: transparent;
+    color: #00a5ff;
+    border: 2px solid #00a5ff;
+  }
+  
+  
+  .link-btn:hover {
+    background-color: transparent; 
+    color: #00a5ff; 
+    border: 2px solid #00a5ff; 
+  }
+  
+  .link-btn img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  .link-btn span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .link-btn .dots {
+    position: absolute;
+    right: 18px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .link-btn.discord {
+    background-color: #00a5ff;
+  }
+  
+  .top-bar {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .icon-circle {
+    background-color: #313131;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .icon-circle:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  

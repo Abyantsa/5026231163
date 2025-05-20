@@ -9,7 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="mycss1.css">
+    <link rel="stylesheet" href="/assets_pertama/mycss1.css">
     <style>
     </style>
 </head>
@@ -24,7 +24,7 @@
     <p><i>Oleh : itsash | 18 | Source : ITS Online</i>
     </p>
     <p>
-        <img src="https://www.its.ac.id/news/wp-content/uploads/sites/2/2025/02/IMG_20250223_084851-768x432.jpg"
+        <img src="/assets_pertama/pakadi.jpg"
             width="600">
         <br> Suasana Kuliah Umum Mentoring Agama Islam Semester Genap
         2024/2025
@@ -56,7 +56,7 @@
         pemahaman mereka.
     </p>
     <p>
-        <img src="pakadi.jpg" width="600">
+        <img src="/assets_pertama/pakadi.jpg" width="600">
         <br> Dosen agama islam ITS Prof Dr Ir Adi Soeprijanto MT saat
         memberikan
         materi sirah nabawi pada Kuliah Umum Mentoring Agama Islam Semest
