@@ -14,7 +14,11 @@
     <h3>Muhammad Abyan Tsabit Amani</h2>
     <h4>5026231163</h3>
     <div class="link-container">
+        <a href="/">Welcome</a>
         <a href="blog">blog</a>
+        <a href="dosen">Biodata</a>
+        <a href="formulir">Formulir</a>
+        <a href="blog">Blog Template</a>
         <a href="uts">UTS</a>
         <a href="danantara">Danantara</a>
         <a href="js1">Java Script 1</a>
