@@ -14,11 +14,12 @@
     <h3>Muhammad Abyan Tsabit Amani</h2>
     <h4>5026231163</h3>
     <div class="link-container">
-        <a href="/">Welcome</a>
-        <a href="blog">blog</a>
+        <a href="welcome">Welcome</a>
+        <a href="blogpertama">Blog Pertama</a>
         <a href="dosen">Biodata</a>
         <a href="formulir">Formulir</a>
         <a href="blog">Blog Template</a>
+        <a href="pegawai">Table Pegawai</a>
         <a href="uts">UTS</a>
         <a href="danantara">Danantara</a>
         <a href="js1">Java Script 1</a>
