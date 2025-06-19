@@ -11,7 +11,7 @@ class KaryawanController extends Controller
     public function tablekaryawan()
     {
     $karyawan = DB::table('karyawan')->paginate(10);
-    return view('karyawan.tablekaryawan', ['karyawan' => $karyawan]);
+    return view('karyawan/tablekaryawan', ['karyawan' => $karyawan]);
     }
 
     // Tampilkan form tambah karyawan

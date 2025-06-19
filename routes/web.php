@@ -7,6 +7,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HarddiskController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\KeranjangBelanjaController;
 //import java.io;
 
 //System.out.println();
@@ -104,3 +105,9 @@ Route::get('/karyawan', [KaryawanController::class, 'tablekaryawan']);
 Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
 Route::post('/karyawan/simpan', [KaryawanController::class, 'simpan']);
 Route::get('/karyawan/hapus/{id}', [KaryawanController::class, 'hapus']);
+
+//Route Keranjang Belanja
+Route::get('/keranjangbelanja', [KeranjangBelanjaController::class, 'indexkeranjangbelanja']);
+Route::get('/keranjangbelanja/belikeranjangbelanja', [KeranjangBelanjaController::class, 'beli']);
+Route::get('/keranjangbelanja/batalkeranjangbelanja/{id}', [KeranjangBelanjaController::class, 'batal']);
+Route::post('/keranjangbelanja/storekeranjangbelanja', [KeranjangBelanjaController::class, 'store']);
