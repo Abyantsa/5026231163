@@ -5,6 +5,7 @@ use App\Http\Controllers\Link;
 use App\Http\Controllers\Pegawai2Controller;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\HarddiskController;
 //import java.io;
 
 //System.out.println();
@@ -87,3 +88,12 @@ Route::get('/pegawai/edit/{id}', [PegawaiController::class,'edit']);
 Route::post('/pegawai/update', [PegawaiController::class,'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiController::class,'hapus']);
 Route::get('/pegawai/cari', [PegawaiController::class,'cari']);
+
+//Route Database Harddisk
+Route::get('/harddisk', [HarddiskController::class, 'tableharddisk']);
+Route::get('/harddisk/tambah', [HarddiskController::class, 'tambah']);
+Route::post('/harddisk/store', [HarddiskController::class, 'store']);
+Route::get('/harddisk/edit/{id}', [HarddiskController::class, 'edit']);
+Route::post('/harddisk/update', [HarddiskController::class, 'update']);
+Route::get('/harddisk/hapus/{id}', [HarddiskController::class, 'hapus']);
+Route::get('/harddisk/cari', [HarddiskController::class, 'cari']);

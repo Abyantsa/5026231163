@@ -33,7 +33,7 @@
                 <a class="nav-link" href="/pegawai">Pegawai Table</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
+                <a class="nav-link" href="/harddisk">Tugas CRUD</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>

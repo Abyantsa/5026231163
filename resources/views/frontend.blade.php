@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('template')
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>File Gabungan</title>
-    <link rel="stylesheet" href="assets_frontend/frontend.css">
-</head>
+@section('content')
 
-<body>
-    <h1>File Gabungan</h1>
+    <h3>All Fornt End</h3>
     <br />
-    <h3>Muhammad Abyan Tsabit Amani</h2>
-    <h4>5026231163</h3>
     <div class="link-container">
         <a href="welcome">Welcome</a>
         <a href="blogpertama">Blog Pertama</a>
@@ -29,6 +20,5 @@
         <a href="helperlog">Helperlog - Latihan</a>
         <a href="pertama">Pertama</a>
     </div>
-</body>
 
-</html>
+@endsection
