@@ -10,7 +10,7 @@ class KaryawanController extends Controller
     // Tampilkan seluruh data karyawan
     public function tablekaryawan()
     {
-    $karyawan = DB::table('karyawan')->paginate(10);
+    $karyawan = DB::table('karyawan')->get();
     return view('karyawan/tablekaryawan', ['karyawan' => $karyawan]);
     }
 

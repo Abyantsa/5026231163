@@ -28,6 +28,4 @@
         </tr>
         @endforeach
     </table>
-
-    {{ $keranjangbelanja->links() }}
 @endsection

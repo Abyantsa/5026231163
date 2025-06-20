@@ -25,9 +25,6 @@
     </table>
     <div class="d-flex justify-content-between align-items-center">
         <a href="/karyawan/tambah" class="btn btn-primary">+ Tambah Karyawan</a>
-        <div>
-            {{ $karyawan->links() }}
-        </div>
     </div>
 
     <br/>
