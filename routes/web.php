@@ -10,6 +10,7 @@ use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\KeranjangBelanjaController;
 use App\Http\Controllers\BelajarUasController;
 use App\Http\Controllers\BelajarKlikController;
+use App\Http\Controllers\NilaiController;
 //import java.io;
 
 //System.out.println();
@@ -120,3 +121,8 @@ Route::get('/pagecounter', [BelajarUasController::class, 'show']);
 //Route Belajar Klik
 Route::get('/absenklik', [BelajarKlikController::class, 'indexklik']);
 Route::post('/absenklik/store', [BelajarKlikController::class, 'store']);
+
+//Route UAS Nilai
+Route::get('/eas', [NilaiController::class, 'indexnilai']);
+Route::get('/eas/tambahnilai', [NilaiController::class, 'tambah']);
+Route::post('/eas/storenilai', [NilaiController::class, 'store']);
