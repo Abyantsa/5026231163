@@ -8,6 +8,8 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HarddiskController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\BelajarUasController;
+use App\Http\Controllers\BelajarKlikController;
 //import java.io;
 
 //System.out.println();
@@ -111,3 +113,10 @@ Route::get('/keranjangbelanja', [KeranjangBelanjaController::class, 'indexkeranj
 Route::get('/keranjangbelanja/belikeranjangbelanja', [KeranjangBelanjaController::class, 'beli']);
 Route::get('/keranjangbelanja/batalkeranjangbelanja/{id}', [KeranjangBelanjaController::class, 'batal']);
 Route::post('/keranjangbelanja/storekeranjangbelanja', [KeranjangBelanjaController::class, 'store']);
+
+//Route Belajar UAS
+Route::get('/pagecounter', [BelajarUasController::class, 'show']);
+
+//Route Belajar Klik
+Route::get('/absenklik', [BelajarKlikController::class, 'indexklik']);
+Route::post('/absenklik/store', [BelajarKlikController::class, 'store']);
